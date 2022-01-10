@@ -1,0 +1,19 @@
+{
+    "body": "https://images.apple.com/media/us/homepod/2018/98e6cc1a_37ec_4e69_b717_9e58c71e1937/films/expand/homepod-expand-tpl-cc-us-20180306_1280x720h.mp4",
+    "sourceId": "<business_id>",
+    "destinationId": "<destination_id>",
+    "v": 1,
+    "type": "richLink",
+    "id": "<message_id>",
+    "richLinkData": {
+        "url": "https://images.apple.com/media/us/homepod/2018/98e6cc1a_37ec_4e69_b717_9e58c71e1937/films/expand/homepod-expand-tpl-cc-us-20180306_1280x720h.mp4",
+        "title": "HomePod",
+        "assets": {
+            "video": {
+                "url": "https://images.apple.com/media/us/homepod/2018/98e6cc1a_37ec_4e69_b717_9e58c71e1937/films/expand/homepod-expand-tpl-cc-us-20180306_1280x720h.mp4",
+                "mimeType": "video/mp4"
+            }
+        }
+    }
+}
+

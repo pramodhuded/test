@@ -1,0 +1,23 @@
+{
+    "v": "<populated on send>",
+    "id": "<populated on send>",
+    "destinationId": "<populated on send>",
+    "interactiveData": {
+        "appId": 123456789,
+        "appName": "Package Delivery",
+        "URL": "?name=WWDC%20Goodies&deliveryDate=09-06-2017&destinationName=Moscone%20Convention%20Center&street=747%20Howard%20St&state=CA&city=San%20Fransisco&country=USA&postalCode=94103&latitude=37%2E7831&longitude=%2D122%2E4041&extraCharge=15%2E00",
+        "bid": "com.apple.messages.MSMessageExtensionBalloonPlugin:<team-identifier>:com.example.apple-samplecode.PackageDelivery<team-identifier>.MessagesExtension",
+        "sessionIdentifier": "1234567890",
+        "receivedMessage": {
+            "title": "WWDC Goodies",
+            "subtitle": "Scheduled for delivery - Today",
+            "secondarySubtitle": "",
+            "tertiarySubtitle": "",
+            "imageTitle": "",
+            "imageSubtitle": ""
+        },
+        "useLiveLayout": true
+    },
+    "attachments": [],
+    "type": "interactive"
+}

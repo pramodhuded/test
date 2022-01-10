@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Landing Page</title>
+    </head>
+    <body>
+        <div class="box">
+            <div class="main">
+                <h1> Welcome, {{ request.args.get('name') }}! </h1>
+                <p>Sign in to connect your Messages for Business account.</p>
+
+                <img src={{ request.args.get('logo') }}>
+
+                <form class="text-center" method="post" action="/landingPage_handle">
+                    <input type="text" name="userName" placeholder="User Name">
+                    <input type="password" name="userPassword" placeholder="Password">
+
+                    <input type="hidden" name="id" value="{{ request.args.get('id') }}">
+                    <input type="hidden" name="name" value="{{ request.args.get('name') }}">
+                    <input type="hidden" name="logo" value="{{ request.args.get('logo') }}">
+
+                    <input type="submit" value="Get Started">
+                </form>
+
+                <p>Don't have an account? Click <a href="example.com/new-account">here</a> to create one.</p>
+                <a href="/#">Forgot password or user name?</a>
+            </div>
+        </div>
+
+        <style>
+            body{text-align:center;display:flex;justify-content:center;color:darkgray;background-color:darkgray;}
+            .box{padding:2% 10%;max-width:75%;position:fixed;top:20%;border-radius:20px;background-color:white;}
+            h1 {color:black;}
+            input{box-sizing: border-box;-moz-box-sizing: border-box;width:50%;padding:10px;border-style:unset;border:1px solid darkgray;border-radius:5px;text-align:center;}
+            input[type=submit]{color:#007bff;border-color:#007bff;background-color:initial;}
+            img{max-width:200px;}
+            p a {color:#007bff;text-decoration:none;}
+            a {color:gray;}
+        </style>
+    </body>
+</html>

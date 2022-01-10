@@ -1,0 +1,6 @@
+{
+    "Authorization": "Bearer <REDACTED>",
+    "Content-Type": "application/json",
+    "Destination-Id": "urn:mbid:AQAAY/<REDACTED>",
+    "Source-Id": "<REDACTED>"
+}

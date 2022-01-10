@@ -1,0 +1,97 @@
+{
+    "destinationId": "urn:mbid:AQAAY/<REDACTED>",
+    "id": "<REDACTED>",
+    "interactiveData": {
+        "bid": "com.apple.messages.MSMessageExtensionBalloonPlugin:0000000000:com.apple.icloud.apps.messages.business.extension",
+        "data": {
+            "images": [
+                {
+                    "data": "/9j/<REDACTED>",
+                    "identifier": "1"
+                }
+            ],
+            "payment": {
+                "endpoints": {
+                    "fallbackUrl": "https://<REDACTED>.apple.com/fallback",
+                    "paymentGatewayUrl": "https://<REDACTED>.apple.com/paymentGateway",
+                    "shippingContactUpdateUrl": "https://<REDACTED>apple.com/shippingContactUpdate",
+                    "shippingMethodUpdateUrl": "https://<REDACTED>.apple.com/shippingMethodUpdate"
+                },
+                "merchantSession": {
+                    "displayName": "<REDACTED>",
+                    "epochTimestamp": 1588615039232,
+                    "expiresAt": 1588622239232,
+                    "initiative": "messaging",
+                    "initiativeContext": "<REDACTED>/paymentGateway",
+                    "merchantIdentifier": "<REDACTED>",
+                    "merchantSessionIdentifier": "<REDACTED>",
+                    "nonce": "<REDACTED>",
+                    "signature": "<REDACTED>",
+                    "signedFields": [
+                        "merchantIdentifier",
+                        "merchantSessionIdentifier",
+                        "initiative",
+                        "initiativeContext",
+                        "displayName",
+                        "nonce"
+                    ]
+                },
+                "paymentRequest": {
+                    "applePay": {
+                        "merchantCapabilities": [
+                            "supportsDebit",
+                            "supportsCredit",
+                            "supports3DS"
+                        ],
+                        "merchantIdentifier": "<REDACTED>",
+                        "supportedNetworks": [
+                            "amex",
+                            "visa",
+                            "discover",
+                            "masterCard"
+                        ]
+                    },
+                    "countryCode": "US",
+                    "currencyCode": "USD",
+                    "lineItems": [
+                        {
+                            "amount": "1.85",
+                            "label": "Adoption certificate",
+                            "type": "final"
+                        }
+                    ],
+                    "merchantName": "<REDACTED>",
+                    "requiredBillingContactFields": [],
+                    "requiredShippingContactFields": [
+                        "name",
+                        "post"
+                    ],
+                    "supportedCountries": [
+                        "US"
+                    ],
+                    "total": {
+                        "amount": "1.85",
+                        "label": "Your Total",
+                        "type": "final"
+                    }
+                }
+            },
+            "requestIdentifier": "<REDACTED>",
+            "version": "1.0"
+        },
+        "receivedMessage": {
+            "imageIdentifier": "1",
+            "style": "large",
+            "subtitle": "We'll see you there!",
+            "title": "Adopt a Pet with Apple Pay"
+        },
+        "replyMessage": {
+            "imageIdentifier": "1",
+            "style": "large",
+            "title": "Pet Adoption Fee"
+        }
+    },
+    "sourceId": "<REDACTED>",
+    "type": "interactive",
+    "v": 1
+}

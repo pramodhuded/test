@@ -1,0 +1,19 @@
+{
+    "body": "https://www.apple.com/ipad-pro/",
+    "sourceId": "<business_id>",
+    "destinationId": "<destination_id>",
+    "v": 1,
+    "type": "richLink",
+    "id": "<message_id>",
+    "richLinkData": {
+        "url": "https://www.apple.com/ipad-pro/",
+        "title": "iPad Pro",
+        "assets": {
+            "image": {
+              "data": "/9j/4AAQSkZJRgABAQA…………<snipped>…………AAQAB/Z",
+              "mimeType": "image/jpeg"
+            }
+        }
+    }
+}
+

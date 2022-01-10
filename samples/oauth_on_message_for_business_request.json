@@ -1,0 +1,40 @@
+{
+    "destinationId": "urn:mbid:AQAAY/<REDACTED>",
+    "id": "<REDACTED>",
+    "interactiveData": {
+        "bid": "com.apple.messages.MSMessageExtensionBalloonPlugin:0000000000:com.apple.icloud.apps.messages.business.extension",
+        "data": {
+            "authenticate": {
+                "oauth2": {
+                    "clientSecret": "<REDACTED>",
+                    "responseEncryptionKey": "BOHYbP1y58OFVS8/DUt5wrKrb7nIAgYy+jnm7x/tHDb3eaCXegYaw7m7w0ST/5nVvbDsGqLS5REFIQRGkQAtGsR600a8dMdJW5ZefKKU+1CTJrmPgw2Jlay/USNdVdfA4A==",
+                    "responseType": "token",
+                    "scope": [
+                        "profile"
+                    ],
+                    "state": "<REDACTED>"
+                }
+            },
+            "images": [
+                {
+                    "data": "/9j/<REDACTED>",
+                    "identifier": "1"
+                }
+            ],
+            "requestIdentifier": "<REDACTED>",
+            "version": "1.0"
+        },
+        "receivedMessage": {
+            "imageIdentifier": "1",
+            "subtitle": "Your premier <REDACTED> dealer",
+            "title": "Sign In to <REDACTED>"
+        },
+        "replyMessage": {
+            "imageIdentifier": "1",
+            "title": "You Signed In"
+        }
+    },
+    "sourceId": "<REDACTED>",
+    "type": "interactive",
+    "v": 1
+}
